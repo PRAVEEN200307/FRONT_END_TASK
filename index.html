@@ -3,119 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task 1</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
 </head>
 <body>
-    <div class="from">
-        <h1>01.APPLICATION FORM</h1>
-        <form action="">
-            <label for="">Name:</label> <input type="text" name="" id="" placeholder="Enter Your Name">
-            <br>
-        
-            <br>
-        
-            <label for="">Email:</label> <input type="email" name="" id="" placeholder="Enter Your Email">
-            <br><br>
-            <label for="">Gender:</label> <input type="radio" name="gender" id="">Male
-            <input type="radio" name="gender" id="">Female
-            <br>
-            <h3>CHOOSE SKILLS</h3>
-             HTML<input type="checkbox" name="" id=""> CSS <input type="checkbox" name="" id=""> 
-            JS <input type="checkbox" name="" id=""> Bootstrap <input type="checkbox" name="" id="">
-            Reactjs <input type="checkbox" name="" id="">
-            <br><br>
-            <label for="">JOB TYPE</label> <select name="" id="">
-                <option value="">FRONT END DEVELOPER</option>
-                <option value="">BACK END DEVELOPER</option>
-                <option value="">USER EXPERIENCE DESIGNER</option>
-                <option value="">SYSTEMS ANALYST</option>
-                <option value=""> DATA ANALYSIS</option>
-                <option value=""> TECHNICAL SUPPORT</option>
-                <option value=""> NETWORK ADMINISTEATOR</option>
-            </select>
-            <br><br>
-            <label for="">Choose your browser from the list</label> <input type="text" name="" id=""> 
-            <br><br>
-            <textarea name="" id="" cols="30" rows="5" placeholder="Give a berief summary about you"></textarea>
-            <br><br>
-            <input type="submit" name="" id="">
-            
-        </form>
+    <div class="calculator">
+        <div class="head">
+            <head>
+                <button style="flex-basis:35px;" class="btn">C</button>
+                <input type="number" name="cal " id="cal" class="" placeholder="0" >
+            </head>
+        </div>
+        <aside>
+          <div class="first_line">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button name="mutiple" class="btn" style="flex-basis:30px;">*</button>
+          </div>
+           <div class="secound_line">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button name="divided" class="btn" style="flex-basis:30px;">/</button>
+           </div>
+           <div class="third_line">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button name="addtition" class="btn" style="flex-basis:30px;">+</button>
+           </div>
+           <div class="forth_line">
+            <button>&dot;</button>
+            <button>0</button>
+            <button class="specific">=</button>
+            <button name="subtraction" class="btn" style="flex-basis:30px;">-</button>
+           </div>
+        </aside>
     </div>
-
-
-    <div class="table">
-        <h1>03.courss</h1>
-    <table border="2">
-        <tr> 
-            <th>S.No 1</th>
-            <th>S.No 2</th>
-            <th>S.No 3</th>
-            <th>S.No 4</th>
-        </tr>
-        <tr>
-            <td rowspan="2">REACT JS</td>
-            <td>
-                HTML
-            </td>
-            <td rowspan="2">REACT JS</td>
-            <td>
-               CSS
-            </td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>HTML</td>
-            </tr>
-            <tr>
-                <td colspan="2">JAVASCRIPT</td>
-                <td colspan="2">BOOTSTRAP</td>
-            </tr>
-
-
-            
-    </table>
-
-    </div>
-    
-
-     <div class="line">
-        <h1>02.Batch List</h1>
-        <ul>
-            <li>SENCHOLA UNIVERSITY</li>
-            <br>
-    
-            <ol>
-                <li>First Batch</li><br>
-                <ol type="A">
-                    <li>Ravi</li>
-                    <li>Manol</li>
-                    <li>Sandhiya</li>
-                </ol>
-                <br>
-                <li>Second Batch</li><br>
-                <ol type="I" >
-                    <li>Sundhar</li>
-                    <li>Saranya</li>
-                    <li>Nandhini</li>
-                </ol>
-                <br>
-                <li>Third Batch</li><br>
-                <ol type="i">
-                    <li>Monika</li>
-                    <li>Santhosh</li>
-                    <li>Kannan</li>
-    
-                </ol>
-            </ol>
-        </ul>
-     </div>
-
-
-
-
-
-
 </body>
 </html>
